@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    margin: 1;
+    padding: 1;
+}
+
+/* Encabezado */
+/* Estilos CSS */
+header {
+    background-color: #f0f0f0; /* Color de fondo del encabezado */
+    padding: 20px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto;
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+.about-us, .services {
+    padding: 20px;
+  }
+  
+  .our-history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .our-history ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Otros estilos para personalizar la apariencia */
+  h2 {
+    color: #333;
+  }
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #f05f40;
+    text-align: center;
+    color: #333;
+    text-align: center;
+    font-size: 20em;
+    color: #333;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+
+/* Sección principal */
+main {
+    padding: 110px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria img {
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
